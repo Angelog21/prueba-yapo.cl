@@ -60,7 +60,7 @@ const getInmueblePrice = async ( id ) => {
 
 // Se comprueba si hay parámetros ingresados
 if (process.argv.length < 3) {
-    console.log("Falta un parámetro, por favor use el comando: node index2.js [ID_PROPIEDAD]");
+    console.log("Falta un parámetro, por favor use el comando: node index.js [ID_PROPIEDAD]");
     process.exit(1);
 }
 
